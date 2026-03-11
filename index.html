@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio — Creative Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="script-v2.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#hero" class="brand">Ayush kumar</a>
+            <div class="nav-links">
+                <a href="#hero" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#certificates" class="nav-link">Certificates</a>
+                <a href="#work" class="nav-link">Work</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="theme-btn" id="themeToggle">
+                <span class="sun">☀</span>
+                <span class="moon">☾</span>
+            </button>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-grid">
+            <div class="hero-image-section">
+                <div class="image-container">
+                    <div class="image-wrapper">
+                        <img src="image.png" alt="Profile" class="profile-img">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="image-badge">Available for work</div>
+                </div>
+            </div>
+            <div class="hero-text-section">
+                <div class="hero-content">
+                    <p class="hero-greeting">Hello, I'm</p>
+                    <h1 class="hero-name">Ayush<br>Kumar</h1>
+                    <p class="hero-description">
+                        I am a Data Scientist and Web Developer passionate about building data-driven applications. I enjoy working with data, creating modern web interfaces, and continuously learning new technologies through hands-on projects.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#work" class="btn-primary">View My Work</a>
+                        <a href="#contact" class="btn-secondary">Let's Talk</a>
+                    </div>
+                    <div class="hero-stats">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-intro">
+                <span class="section-tag">Who I Am</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="large-text">
+                        My name is Ayush Kumar, and I am currently pursuing a Bachelor of Computer Applications (BCA) in Data Science & Artificial Intelligence at Gopal Narayan Singh University. I am passionate about working with data and building modern web applications that are both functional and user-friendly.
+                    </p>
+                    <p>
+                       I have a strong interest in data analysis, machine learning, and web development, and I enjoy turning complex data into meaningful insights while designing clean and responsive digital experiences. Through academic learning and hands-on projects, I am continuously strengthening my technical and problem-solving skills.
+
+I believe in learning by doing and actively work on real-world projects to improve my understanding of data-driven technologies and modern development practices. My goal is to build intelligent, scalable solutions that create real value through technology and data.
+
+
+                    </p>
+                    <p>
+                      When I’m not coding, I spend time exploring new tools, improving my skills, and staying updated with emerging trends in data science and web development.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <div class="experience-card">
+                        <div class="exp-number">5+</div>
+                        <div class="exp-text">Projects Completed</div>
+                    </div>
+                    <div class="experience-card">
+                        <div class="exp-number">15+</div>
+                        <div class="exp-text">Certifications Earned</div>
+                    </div>
+                    <div class="experience-card">
+                        <div class="exp-number">10+</div>
+                        <div class="exp-text">Tools Used</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-intro">
+                <span class="section-tag">Expertise</span>
+                <h2 class="section-title">Skills & Technologies</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="category-icon">💻</div>
+                    <h3 class="category-title">Frontend Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-bar-wrapper">
+                            <div class="skill-bar-header">
+                                <span>JavaScript / TypeScript</span>
+                                <span class="skill-percent">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-wrapper">
+                            <div class="skill-bar-header">
+                                <span>React / Next.js</span>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-wrapper">
+                            <div class="skill-bar-header">
+                                <span>HTML5 / CSS3 / SASS</span>
+                                <span class="skill-percent">98%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="98"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-wrapper">
+                            <div class="skill-bar-header">
+                                <span>Vue.js / Angular</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-icon">⚙️</div>
+                    <h3 class="category-title">Backend Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-bar-wrapper">
+                            <div class="skill-bar-header">
+                                <span>Node.js / Express</span>
+                                <span class="skill-percent">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-wrapper">
+                            <div class="skill-bar-header">
+                                <span>Python / Django</span>
+                                <span class="skill-percent">82%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="82"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-wrapper">
+                            <div class="skill-bar-header">
+                                <span>MongoDB / PostgreSQL</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-wrapper">
+                            <div class="skill-bar-header">
+                                <span>REST API / GraphQL</span>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-icon">🎨</div>
+                    <h3 class="category-title">Design & Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-bar-wrapper">
+                            <div class="skill-bar-header">
+                                <span>Figma / Adobe XD</span>
+                                <span class="skill-percent">92%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="92"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-wrapper">
+                            <div class="skill-bar-header">
+                                <span>UI/UX Design</span>
+                                <span class="skill-percent">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-wrapper">
+                            <div class="skill-bar-header">
+                                <span>Photoshop / Illustrator</span>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-wrapper">
+                            <div class="skill-bar-header">
+                                <span>Git / DevOps</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-intro">
+                <span class="section-tag">Academic Background</span>
+                <h2 class="section-title">Education</h2>
+            </div>
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2024 - 2027</div>
+                        <h3 class="timeline-title">Bachelor of Computer Applications</h3>
+                        <h4 class="timeline-institution">GOPAL NARAYAN SINGH UNIVERSITY</h4>
+                        <p class="timeline-description">
+                            Graduated with honors, focusing on software engineering, data structures, 
+                            and web technologies. Active member of the Computer Science Club and participated 
+                            in multiple hackathons.
+                        </p>
+                        <!-- <div class="timeline-achievements">
+                            <span class="achievement-tag">GPA: 3.8/4.0</span>
+                            <span class="achievement-tag">Dean's List</span>
+                            <span class="achievement-tag">Honors Graduate</span>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2022 - 2024</div>
+                        <h3 class="timeline-title">Higher Secondry Eduction</h3>
+                        <h4 class="timeline-institution">Anugrah Inter School</h4>
+                        <p class="timeline-description">
+                            Completed higher secondary education in the Science stream with Physics, Chemistry, and Mathematics, building a strong base in logical reasoning and analytical skills.
+                        </p>
+                        
+                    </div>
+                </div>
+
+                <!-- <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2020 - Present</div>
+                        <h3 class="timeline-title">Continuous Learning & Development</h3>
+                        <h4 class="timeline-institution">Online Platforms & Workshops</h4>
+                        <p class="timeline-description">
+                            Actively pursuing knowledge through various online courses, workshops, and tech conferences. 
+                            Committed to staying current with emerging technologies and best practices.
+                        </p>
+                        <div class="timeline-achievements">
+                            <span class="achievement-tag">15+ Certifications</span>
+                            <span class="achievement-tag">Tech Speaker</span>
+                            <span class="achievement-tag">Open Source Contributor</span>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+<section id="certificates" class="certificates">
+  <div class="container">
+    <div class="section-intro">
+                <span class="section-tag">My Portfolio</span>
+                <h2 class="section-title">Certificates</h2>
+            </div>
+
+    <div class="certs-list">
+
+      <!-- Certificate 01 -->
+      <article class="project">
+        <div class="project-image">
+          <div class="project-img">
+            <img src="certificate/Hack2skill-Certificate (1).png" alt="Google Cloud Certificate">
+          </div>
+        </div>
+        <div class="project-details">
+          <div class="project-header">
+            <h3 class="project-title">Google Cloud Foundations</h3>
+            <span class="project-number">01</span>
+          </div>
+          <p class="project-desc">
+            Certified by Google Cloud for foundational knowledge of cloud concepts,
+            services, and infrastructure.
+          </p>
+          <div class="project-tech">
+            <span>Google Cloud</span>
+            <span>Cloud Computing</span>
+          </div>
+          <a href="#" class="project-link">View Certificate →</a>
+        </div>
+      </article>
+
+      <!-- Certificate 02 (reverse) -->
+      <article class="project project-reverse">
+        <div class="project-image">
+          <div class="project-img">
+            <img src="certificate/Hack2skill-Certificate (1).png" alt="Hack2Skill Certificate">
+          </div>
+        </div>
+        <div class="project-details">
+          <div class="project-header">
+            <h3 class="project-title">Hack2Skill Program</h3>
+            <span class="project-number">02</span>
+          </div>
+          <p class="project-desc">
+            Awarded for successfully completing competitive problem-solving and
+            real-world technical challenges.
+          </p>
+          <div class="project-tech">
+            <span>Problem Solving</span>
+            <span>Programming</span>
+          </div>
+          <a href="#" class="project-link">View Certificate →</a>
+        </div>
+      </article>
+
+      <!-- Certificate 03 -->
+      <article class="project">
+        <div class="project-image">
+          <div class="project-img">
+            <img src="certificate/Hack2skill-Certificate (1).png" alt="Web Development Certificate">
+          </div>
+        </div>
+        <div class="project-details">
+          <div class="project-header">
+            <h3 class="project-title">Full-Stack Web Development</h3>
+            <span class="project-number">03</span>
+          </div>
+          <p class="project-desc">
+            Certification covering frontend and backend development using modern
+            web technologies.
+          </p>
+          <div class="project-tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+          <a href="#" class="project-link">View Certificate →</a>
+        </div>
+      </article>
+
+      <!-- Certificate 04 (reverse) -->
+      <article class="project project-reverse">
+        <div class="project-image">
+          <div class="project-img">
+            <img src="certificate/Hack2skill-Certificate (1).png" alt="AI & ML Certificate">
+          </div>
+        </div>
+        <div class="project-details">
+          <div class="project-header">
+            <h3 class="project-title">AI & Machine Learning</h3>
+            <span class="project-number">04</span>
+          </div>
+          <p class="project-desc">
+            Certified in machine learning fundamentals, data handling,
+            and AI-driven problem solving.
+          </p>
+          <div class="project-tech">
+            <span>Python</span>
+            <span>Machine Learning</span>
+            <span>AI</span>
+          </div>
+          <a href="#" class="project-link">View Certificate →</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+                
+
+    <!-- Work Section -->
+    <section id="work" class="work">
+        <div class="container">
+            <div class="section-intro">
+                <span class="section-tag">My Portfolio</span>
+                <h2 class="section-title">Project</h2>
+            </div>
+            <div class="projects">
+                <article class="project">
+                    <div class="project-image">
+                        <div class="project-img-placeholder">
+                            <img src="Hack2skill-Certificate (1).png" alt="Fitness Tracking App">
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-header">
+                            <h3 class="project-title">E-Commerce Platform</h3>
+                            <span class="project-number">01</span>
+                        </div>
+                        <p class="project-desc">
+                            A full-featured online shopping platform with real-time inventory management, 
+                            secure payment processing, and personalized recommendations.
+                        </p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>Stripe</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                </article>
+
+                <article class="project project-reverse">
+                    <div class="project-image">
+                        <div class="project-img-placeholder">
+                            <div class="placeholder-grid"></div>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-header">
+                            <h3 class="project-title">Fitness Tracking App</h3>
+                            <span class="project-number">02</span>
+                        </div>
+                        <p class="project-desc">
+                            Mobile-first fitness application with workout tracking, nutrition logging, 
+                            and AI-powered progress insights.
+                        </p>
+                        <div class="project-tech">
+                            <span>React Native</span>
+                            <span>Firebase</span>
+                            <span>TensorFlow</span>
+                            <span>Chart.js</span>
+                        </div>
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                </article>
+
+                <article class="project">
+                    <div class="project-image">
+                        <div class="project-img-placeholder">
+                            <div class="placeholder-grid"></div>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-header">
+                            <h3 class="project-title">Analytics Dashboard</h3>
+                            <span class="project-number">03</span>
+                        </div>
+                        <p class="project-desc">
+                            Real-time business intelligence dashboard with interactive data visualizations, 
+                            custom reporting, and team collaboration features.
+                        </p>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>D3.js</span>
+                            <span>WebSocket</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                </article>
+
+                <article class="project project-reverse">
+                    <div class="project-image">
+                        <div class="project-img-placeholder">
+                            <div class="placeholder-grid"></div>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-header">
+                            <h3 class="project-title">Creative Portfolio Site</h3>
+                            <span class="project-number">04</span>
+                        </div>
+                        <p class="project-desc">
+                            A stunning portfolio website for a creative agency featuring smooth animations, 
+                            interactive galleries, and a custom CMS.
+                        </p>
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>Framer Motion</span>
+                            <span>Sanity CMS</span>
+                            <span>Vercel</span>
+                        </div>
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="section-intro">
+                        <span class="section-tag">Get In Touch</span>
+                        <h2 class="section-title">Let's Work<br>Together</h2>
+                    </div>
+                    <p class="contact-intro">
+                        Have a project in mind or just want to chat? I'd love to hear from you. 
+                        Drop me a message and I'll get back to you as soon as possible.
+                    </p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <h4>Email</h4>
+                            <a href="/cdn-cgi/l/email-protection#ddb5b8b1b1b29db8a5bcb0adb1b8f3beb2b0"><span class="__cf_email__" data-cfemail="80e8e5ececefc0e5f8e1edf0ece5aee3efed">[email&#160;protected]</span></a>
+                        </div>
+                        <div class="contact-method">
+                            <h4>Phone</h4>
+                            <a href="tel:+1234567890">+1 (234) 567-890</a>
+                        </div>
+                        <div class="contact-method">
+                            <h4>Location</h4>
+                            <p>San Francisco, CA</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">GitHub</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">Dribbble</a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-field">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="from_name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="reply_to" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" placeholder="Tell me about your project..." rows="6" required></textarea>
+                        </div>
+                        <button type="submit" id="sendBtn" class="btn-primary btn-submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Creative Developer. All rights reserved.</p>
+                <a href="#hero" class="back-
